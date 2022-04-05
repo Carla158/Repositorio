@@ -44,7 +44,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 DATABASES = {
     "default": env.db(
         "DATABASE_URL",
-        default="postgres://localhost/mtv",
+        default="postgres://lkbrtbxc:xiS3PRy8I_Z8reACdAk19x1syIaDQvUn@ruby.db.elephantsql.com/lkbrtbxc",
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
